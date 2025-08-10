@@ -15,6 +15,9 @@ WORKDIR /app
 
 # Copy requirements file and install Python dependencies
 COPY requirements.txt .
+RUN apt-get update && apt-get install -y build-essential
+RUN pip install --upgrade pip setuptools wheel
+
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy your entire project files into the container
