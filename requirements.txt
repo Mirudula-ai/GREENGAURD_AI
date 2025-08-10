@@ -1,12 +1,13 @@
 --prefer-binary
 streamlit==1.24.1
 pytesseract==0.3.10
-Pillow==9.1.0
+Pillow==10.2.0
 fpdf==1.7.2
 matplotlib==3.7.1
 numpy==1.26.4
 pdf2image==1.16.3
 opencv-python==4.7.0.72
+
 
 
 
